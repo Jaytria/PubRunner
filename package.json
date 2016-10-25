@@ -2,7 +2,7 @@
   "name": "PubRunner",
   "version": "0.0.0",
   "description": "Easily Run scripts or perform tasks, right from your menu bar.",
-  "main": "index.js",
+  "main": "main.js",
   "repository": {
     "url": "git+https://github.com/Jaytria/ScriptRunner.git",
     "type": "git"

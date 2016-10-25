@@ -274,13 +274,6 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
-electron:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-1.4.4.tgz#86000bce15e06cadc3566cb7c86122590dee54a5"
-  dependencies:
-    electron-download "^3.0.1"
-    extract-zip "^1.0.3"
-
 electron-download@^3.0.0, electron-download@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/electron-download/-/electron-download-3.0.1.tgz#27045028ee78b3b3dca9fdb35d4bb1262afa4d29"
@@ -303,7 +296,7 @@ electron-osx-sign@^0.3.0:
     minimist "^1.1.1"
     run-series "^1.1.1"
 
-electron-packager:
+electron-packager@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/electron-packager/-/electron-packager-8.1.0.tgz#90979bd870709ec4537a81ed6d6e6922968f878c"
   dependencies:
@@ -325,6 +318,13 @@ electron-packager:
 electron-positioner@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/electron-positioner/-/electron-positioner-3.0.0.tgz#1a3b75c9cc1e29dd37c663b23fd876d4ffab9996"
+
+electron@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.4.4.tgz#86000bce15e06cadc3566cb7c86122590dee54a5"
+  dependencies:
+    electron-download "^3.0.1"
+    extract-zip "^1.0.3"
 
 error-ex@^1.2.0:
   version "1.3.0"
@@ -689,7 +689,7 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
 
-menubar:
+menubar@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/menubar/-/menubar-5.1.0.tgz#b34c211619dced2eeaf897ae9f6e7f04174033d5"
   dependencies:
@@ -907,6 +907,10 @@ progress-stream@^1.1.0:
   dependencies:
     speedometer "~0.1.2"
     through2 "~0.2.3"
+
+punycode@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
 
 q@^1.1.2:
   version "1.4.1"
@@ -1184,8 +1188,10 @@ touch@0.0.3:
     nopt "~1.0.10"
 
 tough-cookie@>=0.12.0, tough-cookie@~2.3.0:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.1.tgz#99c77dfbb7d804249e8a299d4cb0fd81fef083fd"
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.2.tgz#f081f76e4c85720e6c37a5faced737150d84072a"
+  dependencies:
+    punycode "^1.4.1"
 
 "traverse@>=0.3.0 <0.4":
   version "0.3.9"
