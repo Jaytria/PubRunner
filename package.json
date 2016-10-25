@@ -1,29 +1,30 @@
 {
-  "name": "pubrunner",
-  "version": "0.0.1",
-  "description": "Easily run scripts or perform tasks, right from your menu bar.",
+  "name": "PubRunner",
+  "version": "0.0.0",
+  "description": "Easily Run scripts or perform tasks, right from your menu bar.",
   "main": "index.js",
+  "repository": {
+    "url": "git+https://github.com/Jaytria/ScriptRunner.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/Jaytria/ScriptRunner#readme",
+  "bugs": {
+    "url": "https://github.com/Jaytria/ScriptRunner/issues"
+  },
+  "author": "Justin Sitter <justin@jaytria.com>, David Lewis <davidlewis@icloud.com>",
+  "license": "BSD-3-Clause-Attribution",
+  "dependencies": {
+    "electron": "^1.4.4",
+    "electron-packager": "^8.1.0",
+    "menubar": "^5.1.0",
+    "vue": "^2.0.3"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "electron-packager . PubRunner --platform=darwin --arch=x64",
     "start": "electron ."
-  },
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jaytria/ScriptRunner.git"
-  },
-  "author": "Justin Sitter <justin@jaytria.com>, David Lewis <davidlewis@icloud.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jaytria/ScriptRunner/issues"
-  },
-  "homepage": "https://github.com/Jaytria/ScriptRunner#readme",
-  "dependencies": {
-    "menubar": "^5.1.0"
-  },
-  "devDependencies": {
-    "electron": "^1.4.4",
-    "electron-packager": "^8.1.0"
   }
 }
