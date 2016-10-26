@@ -1,23 +1,16 @@
 <html>
   <head>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script>
-			const remote = require('electron').remote
-			const main = remote.require('./main.js')
 
-			function crap(){
-				
-				main.mbar()
-			}
-		</script>
     <title>PubRunner</title>
   </head>
 
   <body>
-    Example Content
+    <div class="item">
+			Menubar item
+		</div>
 
-
-		<div id="quit" class="item" onclick="crap();">
+		<div class="item" onclick="mbar();">
 			Quit
 		</div>
   </body>

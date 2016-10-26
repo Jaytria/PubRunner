@@ -10,7 +10,7 @@ mb.on('ready', function ready() {
 })
 
 exports.mbar = () => {
-		alert("quit")
+		alert("Quit function selectered")
 		mb.app.quit()
 
 }
