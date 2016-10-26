@@ -16,7 +16,6 @@
   "dependencies": {
     "electron": "^1.4.4",
     "electron-packager": "^8.1.0",
-    "menubar": "^5.1.0",
     "vue": "^2.0.3"
   },
   "devDependencies": {
