@@ -2,7 +2,7 @@
   "name": "PubRunner",
   "version": "0.0.1",
   "description": "Easily run scripts or perform tasks, right from your menu bar.",
-  "main": "main.js",
+  "main": "app/main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jaytria/PubRunner.git"
@@ -25,6 +25,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "electron-packager . PubRunner --platform=darwin --arch=x64",
-    "start": "electron ."
+    "start": "electron .",
+    "debug": "electron --debug=5858 ."
   }
 }
