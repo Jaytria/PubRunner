@@ -3,6 +3,7 @@
 const {app, Tray, Menu, BrowserWindow} = require('electron');
 const path = require('path');
 const storage = require('electron-json-storage');
+const testHelpers = require(path.join(__dirname, 'helpers/test-helpers.js'))
 
 //Deal with icons and mainWindowdows on startup
 const iconPath = path.join(__dirname, 'icons/IconTemplate.png');
@@ -69,3 +70,9 @@ function createWindow() {
     mainWindow = null
   })
 }
+
+function test() {
+  testHelpers.log('test test test')
+}
+
+module.exports.test = test
