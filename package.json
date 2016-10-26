@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jaytria/ScriptRunner.git"
+    "url": "git+https://github.com/Jaytria/PubRunner.git"
   },
   "author": "Justin Sitter <justin@jaytria.com>, David Lewis <davidlewis@icloud.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jaytria/ScriptRunner/issues"
+    "url": "https://github.com/Jaytria/PubRunner/issues"
   },
-  "homepage": "https://github.com/Jaytria/ScriptRunner#readme",
+  "homepage": "https://github.com/Jaytria/PubRunner#readme",
   "dependencies": {
     "menubar": "^5.1.0"
   },

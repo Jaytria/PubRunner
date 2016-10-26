@@ -1,12 +1,24 @@
 <html>
   <head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+			const remote = require('electron').remote
+			const main = remote.require('./main.js')
+
+			function crap(){
+				
+				main.mbar()
+			}
+		</script>
     <title>PubRunner</title>
   </head>
 
   <body>
     Example Content
-		<ul>
-			<li onclick="app.quit();">Quit</li>
-		</ul>
+
+
+		<div id="quit" class="item" onclick="crap();">
+			Quit
+		</div>
   </body>
 </html>
