@@ -23,3 +23,6 @@ node_modules
 
 # Ignore debug log
 npm-debug.log
+
+# Ignore Yarn files
+.yarnclean

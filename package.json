@@ -1,28 +1,30 @@
 {
-  "name": "pubrunner",
+  "name": "PubRunner",
   "version": "0.0.1",
   "description": "Easily run scripts or perform tasks, right from your menu bar.",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "electron-packager . PubRunner --platform=darwin --arch=x64",
-    "start": "electron ."
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jaytria/PubRunner.git"
   },
-  "author": "Justin Sitter <justin@jaytria.com>, David Lewis <davidlewis@icloud.com>",
-  "license": "ISC",
+  "homepage": "https://github.com/Jaytria/PubRunner#readme",
   "bugs": {
     "url": "https://github.com/Jaytria/PubRunner/issues"
   },
-  "homepage": "https://github.com/Jaytria/PubRunner#readme",
+  "author": "Justin Sitter <justin@jaytria.com>, David Lewis <davidlewis@icloud.com>",
+  "license": "BSD-3-Clause-Attribution",
   "dependencies": {
-    "menubar": "^5.1.0"
+    "electron": "^1.4.4",
+    "electron-packager": "^8.1.0",
+    "menubar": "^5.1.0",
+    "vue": "^2.0.3"
   },
   "devDependencies": {
-    "electron": "^1.4.4",
     "electron-packager": "^8.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-packager . PubRunner --platform=darwin --arch=x64",
+    "start": "electron ."
   }
 }
