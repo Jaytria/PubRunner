@@ -8,6 +8,9 @@ let win = null;
 app.on('ready', function(){
   win = new BrowserWindow({show: false});
   appIcon = new Tray(iconPath);
+
+	console.log('app is ready')
+
   var contextMenu = Menu.buildFromTemplate([
     {
       label: 'Item1',
